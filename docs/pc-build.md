@@ -1,1 +1,0 @@
-I built my very own PC. joy!
