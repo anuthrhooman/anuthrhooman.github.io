@@ -1,0 +1,36 @@
+site_name: Charlotte Lyons | IT Portfolio
+site_url: https://anuthrhooman.github.io/
+
+theme:
+  name: material
+  palette: 
+    # Dark mode setup
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    # Light mode setup (as a backup)
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - Projects:
+    - PC Build: pc-build.md
+    - Reboot Repair Issue: reboot-repair.md
+    - Site Migration: site-migration.md
+  - Resume: resume.md

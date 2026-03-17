@@ -1,0 +1,1 @@
+I fixed my computer that was rebooting all the time.

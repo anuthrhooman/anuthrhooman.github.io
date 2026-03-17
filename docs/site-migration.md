@@ -1,0 +1,1 @@
+I moved my site from AWS to GitHub Pages.
